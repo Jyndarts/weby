@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/logo.svg" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Weby</title>
+    <meta name="Website Editor and Builder"/>
+  </head>
+  <body>
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <img src="assets/img/webylogo.png" alt="Weby Logo" class="logo">
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="loginform.html" class="nav_link">Create</a>
+            </li>
+            <li class="nav_item">
+              <a href="#resources" class="nav_link">Resources</a>
+            </li>
+            <li class="hidden_item">
+              <a href="#app" class="nav_link">App</a>
+            </li>
+            <li class="nav_item">
+              <a href="#support" class="nav_link">Support</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+
+            <li><a href="loginform.html" class="header_button">Get Started</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Unleash Your Web Potential</h1>
+            <h2 class="home_subtitle">Create stunning, customized websites that reflect your unique vision and captivate your audience</h2>
+            <a href="loginform.html" class="button">Get Started</a>
+          </div>
+
+          <img
+            src="assets/img/home.png"
+            alt="best website theme builder"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section style="background: linear-gradient(to right,#288bc5, #004AAD);">
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">ABOUT</span>
+            <h2 class="section-title about_initial">
+              Website Editor and Builder
+            </h2>
+            <p class="about_description">
+              Unleash your creativity with our no-code web design platform. Build stunning, personalized websites effortlessly and bring your ideas to life with our intuitive drag-and-drop interface. Customize every aspect of your website, from layouts to colors, and choose from a diverse collection of themes and elements.
+            </p>
+            <a href="loginform.html" class="button">JOIN NOW</a>
+          </div>
+
+          <img
+            src="assets/img/about.jpg"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+        </div>
+      </section>
+      <br><br>
+      </section>
+
+      <!--========== SERVICES ==========-->
+      <section class="create section bd-container" id="">
+        <h2 class="section-title">Features</h2>
+
+        <div class="create_container bd-grid">
+          <div class="create_content">
+            <img class="create_img" src="assets/img/dragndrop.png">
+            <h3 class="create_title">Drag and Drop UI</h3>
+            <p class="create_description">
+              Effortlessly design your website using our intuitive drag-and-drop interface. No coding required.
+            </p>
+          </div>
+
+          <div class="create_content">
+            <img class="create_img" src="assets/img/library.png">
+
+            <h3 class="create_title">Vast Theme Collection</h3>
+            <p class="create_description">
+              Choose from a wide range of professionally designed themes and elements to enhance your website's appearance and functionality.
+            </p>
+          </div>
+
+          <div class="create_content">
+            <img class="create_img" src="assets/img/customization.png">
+            <h3 class="create_title">Flexible Customization</h3>
+            <p class="create_description">
+              Customize every aspect of your website to match your brand or personal style. Create a unique and captivating online presence.
+            </p>
+          </div>
+        </div>
+      </section>
+      <br><br><br>
+
+      <!--========== RESOURCES ==========-->
+      <section style="background: linear-gradient(to right,#288bc5, #d136ba);">
+      <section class="resources section bd-container" id="resources">
+        <span class="section-subtitle">Website Templates</span>
+        <h2 class="section-title">Build With Passion</h2>
+        <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="assets/img/restauranttemplate.jpg" style="width:100%">
+      <div class="text">Restaurant</div>
+      </div>
+
+      <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="assets/img/clothingtemplate.jpg" style="width:100%">
+      <div class="text">Clothing</div>
+      </div>
+
+      <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="assets/img/medicinetemplate.jpg" style="width:100%">
+      <div class="text">Health</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      </section>
+      <br><br><br>
+    </section>
+
+      <!--===== APP =======-->
+      <section class="app section bd-container" id="app">
+        <div class="app_container bd-grid">
+          <div class="app_data">
+            <h2 class="section-title app_initial">Install WEBY on your phone</h2>
+            <p class="app_description">
+              Whether you have Android or IOS, WEBY is now available both on playstore and appstore!
+            </p>
+            <div class="app_stores">
+              <a href="#"
+                ><img
+                  src="assets/img/playstoredownload.png"
+                  alt=""
+                  class="app_store"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/img/appstoredownload.png"
+                  alt=""
+                  class="app_store"
+              /></a>
+            </div>
+          </div>
+          <img src="assets/img/downloadweby.png" alt="" class="app_img" />
+        </div>
+      </section>
+
+      <!--========== SUPPORT ==========-->
+      <section class="support section bd-container" id="support">
+        <div class="support_container bd-grid">
+          <div class="support_data">
+            <h2 class="section-title support_initial">Weby Support</h2>
+            <p class="support_description">
+              Our dedicated support team is here to help you. Whether you have questions, need troubleshooting assistance, or seek guidance, our knowledgeable team will reach out to you as soon as possible. Count on WEBY to provide reliable support, ensuring a seamless and enjoyable web design experience.
+            </p>
+          </div>
+
+          <div class="support_button">
+            <a href="mailto:support@weby.com" class="button">Email Us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <section style="background-color: black;">
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            W<span>EBY</span>
+          </b>
+
+          <span class="footer_description">Website Empowered By You</span>
+
+          <div>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Other Links</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Web Hosting</a></li>
+            <li><a href="#" class="footer_link">Privacy Policy</a></li>
+            <li><a href="#" class="footer_link">Terms of Use</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Navigation</h3>
+          <ul>
+            
+            <li><a href="#app" class="footer_link">Download</a></li>
+            <li><a href="#support" class="footer_link">Support</a></li>
+            <li><a href="#resources" class="footer_link">Templates</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Support</h3>
+          <ul class="footer_support"style="color: #ffffff;" >
+            <li class="footer_support">support@weby.com</li>
+            <li class="footer_support">111-WEBY-777</li>
+            <li class="footer_support">Pakistan, Earth</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; Powered By
+        <a
+          href="#home"
+          class="footer_link"
+          target="_blank"
+        >
+          WEBY 2023
+        </a>
+      </p>
+    </footer>
+  </section>
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

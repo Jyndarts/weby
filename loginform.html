@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/img/logo.svg">
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/loginstyle.css">
+  <title>Weby</title>
+  <meta name="Website Editor and Builder">
+</head>
+<body>
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="index.html" class="nav_logo">
+        <img src="assets/img/webylogo.png" alt="Weby Logo" class="logo">
+      </a>
+    </nav>
+  </header>
+
+  <br><br>
+
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form action="./assets/php/register.php" method="POST">
+        <h1>Create Account</h1>
+        <br>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <div class="form-container sign-in-container">
+      <form action="./assets/php/login.php" method="POST">
+        <h1>Sign in</h1>
+        <br>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <a href="#">Forgot your password?</a>
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Welcome Back!</h1>
+          <p>To keep connected with us please login with your personal info</p>
+          <button class="ghost" id="signIn">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Hello, Web Developer</h1>
+          <p>Enter your personal details and start your journey with us</p>
+          <button class="ghost" id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer_copy">
+      &#169; Powered By
+      <a href="index.html" class="footer_link" target="_blank">
+        WEBY 2023
+      </a>
+    </p>
+  </footer>
+
+  <script src="assets/js/loginjs.js"></script>
+</body>
+</html>
